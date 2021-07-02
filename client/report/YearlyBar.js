@@ -68,7 +68,7 @@ export default function Reports() {
                     categories={{
                         x: monthStrings
                     }}
-                    style={{ data: { fill: "#69f0ae", width: 20 }, labels: {fill: "#01579b"} }}
+                    style={{ data: { fill: "#3beb68", width: 30 }, labels: {fill: "#01579b"} }}
                     data={yearlyExpense.monthTot}
                     x={monthStrings['x']}
                     domain={{x: [0, 13]}}

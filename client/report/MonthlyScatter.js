@@ -66,8 +66,8 @@ export default function MonthlyScatter() {
                 >
                     <VictoryScatter
                         style={{
-                            data: { fill: "#01579b", stroke: "#69f0ae", strokeWidth: 2 },
-                            labels: { fill: "#01579b", fontSize: 10, padding:8}
+                            data: { fill: "#01719b", stroke: "#69f0ae", strokeWidth: 2 },
+                            labels: { fill: "#01719b", fontSize: 12, padding:8}
                         }}
                         bubbleProperty="y"
                         maxBubbleSize={15}

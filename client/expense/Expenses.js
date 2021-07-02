@@ -39,7 +39,7 @@ const useStyles = makeStyles(theme => ({
     color: 'grey'
   },
   panel: {
-    border: '1px solid #58bd7f',
+    border: '2px solid #58bd7f',
     margin: 6
   },
   info: {

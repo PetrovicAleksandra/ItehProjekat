@@ -99,13 +99,13 @@ export default function Reports() {
                     fill: '#0f0f0f'
                 },
                 {
-                    fontSize: '10px',
+                    fontSize: '12px',
                     fill: '#013157'
                 }]} text={( {datum} ) => `${datum.x}\n $${datum.y}`}/>}
                  />
                  <VictoryLabel
           textAnchor="middle"
-          style={{ fontSize: 14, fill: '#8b8b8b' }}
+          style={{ fontSize: 15, fill: '#8b8b8b' }}
           x={175} y={170}
           text={`Spent \nper category`}
         />
