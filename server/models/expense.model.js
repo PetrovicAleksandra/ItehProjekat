@@ -3,17 +3,17 @@ const ExpenseSchema = new mongoose.Schema({
   title: {
     type: String,
     trim: true,
-    required: 'Title is required'
+    required: 'Title is required. Please, enter title.'
   },
   category: {
     type: String,
     trim: true,
-    required: 'Category is required'
+    required: 'Category is required. Please, enter category.'
   },
   amount: {
       type: Number,
       min: 0,
-      required: 'Amount is required'
+      required: 'Amount is required. Please, enter amount.'
   },
   incurred_on: {
     type: Date,

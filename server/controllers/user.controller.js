@@ -2,6 +2,7 @@ import User from '../models/user.model'
 import extend from 'lodash/extend'
 import errorHandler from './../helpers/dbErrorHandler'
 
+//Kreiranje usera za registraciju
 const create = async (req, res) => {
   const user = new User(req.body)
   try {
