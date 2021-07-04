@@ -10,18 +10,13 @@ import auth from '../auth/auth-helper'
 import ExpenseOverview from './../expense/ExpenseOverview'
 
 const useStyles = makeStyles(theme => ({
-  //card: {
-  //  maxWidth: 800,
-    //margin: 'auto',
-    //marginTop: theme.spacing(5),
-    //marginBottom: theme.spacing(5),
-  //},
+  
   //izmena card za theme
   card: {
-      maxWidth: 1800,
+      maxWidth: 800,
       margin: 'auto',
-      marginTop: theme.spacing(10),
-      marginBottom: theme.spacing(10),
+      marginTop: theme.spacing(5),
+      marginBottom: theme.spacing(5),
     },
   title: {
     padding:`${theme.spacing(3)}px ${theme.spacing(2.5)}px ${theme.spacing(2)}px`,
